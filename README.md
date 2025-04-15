@@ -5,8 +5,8 @@ Ce projet a été réalisé dans le cadre de l'UE **"Développement Web"** de **
 
 ## 👥 Auteurs du projet
 - 👩‍💻 **ACHAB Ouardia**  
-  📧 Email : achabouardia44@gmail.om 
-  🔗 GitHub : [https://github.com/Ouardia2003](https://github.com/achabouardia)
+  📧 Email : achabouardia44@gmail.com 
+  🔗 GitHub : [https://github.com/Ouardia2003](https://github.com/Ouardia2003)
 
 - 👩‍💻 **ISSAD Lisa**  
   📧 Email : lisa.issad@example.com  
@@ -42,11 +42,11 @@ Pour installer et exécuter ce projet localement :
 1. Clonez ce dépôt ou téléchargez l'archive ZIP
 2. Placez les fichiers dans le répertoire de votre serveur web local (ex. `htdocs` si vous utilisez XAMPP)
 3. Vérifiez que **PHP 8** est installé et activé
-4. Configurez les **clés API** dans les fichiers dédiés si nécessaire
+4. Renseignez votre **clé API** directement dans le fichier `functions.inc.php`, au sein des fonctions chargées de récupérer les données météorologiques.
 5. Ouvrez votre navigateur à l'adresse `http://localhost/nom-du-dossier`
 
 ## 🧑‍🔧 Notes techniques
-- Les **clés API** doivent être renseignées dans les fichiers de configuration
+- Les **clés API** doivent être renseignées  directement dans le fichier `functions.inc.php` , à l'intérieur des fonctions qui utilisent les services météo.
 - Le site utilise des **cookies** pour mémoriser les préférences utilisateur (mode, dernière ville consultée, etc.)
 - Les données sont **stockées au format CSV** sur le serveur
 - Une page technique présente l’usage de différents formats (**JSON** et **XML**) avec des APIs distinctes
