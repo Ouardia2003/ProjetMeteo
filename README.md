@@ -9,8 +9,8 @@ Ce projet a été réalisé dans le cadre de l'UE **"Développement Web"** de **
   🔗 GitHub : [https://github.com/Ouardia2003](https://github.com/Ouardia2003)
 
 - 👩‍💻 **ISSAD Lisa**  
-  📧 Email : lisa.issad@example.com  
-  🔗 GitHub : [https://github.com/lisaissad](https://github.com/lisaissad)
+  📧 Email : issadlisa22@gmail.com  
+  🔗 GitHub : [https://github.com/lisaISSAD2004](https://github.com/lisaISSAD2004)
 
 ## 🌐 URL du site
 - 🔗 [https://achabouardia.alwaysdata.net/](https://achabouardia.alwaysdata.net/)
@@ -31,11 +31,13 @@ L'utilisateur peut sélectionner sa **région**, son **département**, puis sa *
 ## ⚙️ Fonctionnalités principales
 - Sélection de la région via une carte interactive
 - Choix du département et de la ville
-- Affichage des prévisions météorologiques (température, vent, etc.)
+- Affichage des prévisions météorologiques (température minimale,température maximale et description.)
 - Historique des villes consultées
 - Statistiques d'utilisation du site
 - Mode d'affichage personnalisable (jour/nuit)
 - Affichage d'une image aléatoire sur la page d'accueil
+- Recommandations d'activités basées sur la météo du jour
+
 
 ## 💡 Installation
 Pour installer et exécuter ce projet localement :
