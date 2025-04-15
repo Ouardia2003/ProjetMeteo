@@ -5,8 +5,9 @@ Ce projet a été réalisé dans le cadre de l'UE **"Développement Web"** de **
 
 ## 👥 Auteurs du projet
 - 👩‍💻 **ACHAB Ouardia**  
-  📧 Email : achabouardia44@gmail.com 
+  📧 Email : achabouardia44@gmail.com  
   🔗 GitHub : [https://github.com/Ouardia2003](https://github.com/Ouardia2003)
+
 
 - 👩‍💻 **ISSAD Lisa**  
   📧 Email : issadlisa22@gmail.com  
