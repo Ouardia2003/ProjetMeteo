@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🌤️ Projet Web "Prévisions Météo & Climat"
 
 ## ℹ️ Informations générales
