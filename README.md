@@ -19,7 +19,7 @@ Ce projet a été réalisé dans le cadre de l'UE *"Développement Web"* de *L2 
 
 ## 📝 Description du projet
 Ce site web permet de consulter les *prévisions météorologiques* pour les villes de la France métropolitaine.  
-L'utilisateur peut sélectionner sa *région, son **département, puis sa **ville* afin d'obtenir les prévisions météo du jour ainsi que celles des jours suivants.
+L'utilisateur peut sélectionner sa *région*, son *département*, puis sa *ville* afin d'obtenir les prévisions météo du jour ainsi que celles des jours suivants.
 
 ## 🛠️ Technologies utilisées
 - *HTML5 / CSS3* : structure et mise en forme
