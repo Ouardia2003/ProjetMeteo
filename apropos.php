@@ -1,4 +1,24 @@
 <?php
+
+/**
+
+ * @file apropos.php
+
+ * @author Ouardia/Lisa
+ * @brief Page À Propos du site "Ma Météo".
+
+ *
+
+ * Cette page présente les développeuses du site, les objectifs du projet, les avantages proposés par l'application, et fournit un moyen de contact.
+
+ *
+
+ *PHP version 8.1+
+
+ * 
+
+ */
+
 // Définition du titre et de la description de la page
 $pageTitle = "À Propos De Nous";
 $pageDescription = "Découvrez qui nous sommes et les objectifs de notre projet.";
@@ -7,6 +27,8 @@ $pageDescription = "Découvrez qui nous sommes et les objectifs de notre projet.
 include("./include/header.inc.php");
 ?>
 <h1>Bienvenue sur notre site Ma Météo. Merci pour votre visite !</h1>
+<!-- Section de présentation des créatrices -->
+
 <section class="about-us">
     <h2>Qui sommes-nous ?</h2>
     <p>
@@ -16,6 +38,8 @@ include("./include/header.inc.php");
         nos compétences en programmation et en gestion d'API.
     </p>
 </section>
+<!-- Section des avantages du site -->
+
 <section class="advantages">
     <h2>Les avantages de <em>Ma Météo</em></h2>
     <p>
@@ -29,6 +53,7 @@ include("./include/header.inc.php");
         <li><strong>Recherche simplifiée par nom de ville</strong> pour une utilisation fluide et rapide.</li>
     </ul>
 </section>
+<!-- Section de contact -->
 
 <section class="contact">
     <h2>Nous contacter</h2>

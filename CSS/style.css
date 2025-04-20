@@ -1,4 +1,4 @@
-
+/* Styles gÃƒÂ©nÃƒÂ©raux */
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +13,7 @@ body {
     padding: 0;
 }
 
+  
 /* Header */
 header {
     background: transparent;
@@ -21,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: rgb(234, 231, 231);
 
 }
 header img {
@@ -36,8 +37,10 @@ nav ul {
 }
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #005f7f;
+
     font-weight: bold;
+    font-size: 20px; 
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
@@ -45,6 +48,8 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+
 
 /* Titres */
 h1, h2, h3 {
@@ -125,7 +130,7 @@ ul {
 
 .foot a {
     text-decoration: none;
-    color: #007bff;
+    color: #012ffd;
 }
 
 .foot a:hover {
@@ -140,6 +145,8 @@ ul {
     display: inline-block;
     margin-right: 5px;
 }
+
+
 
 /* Formulaires */
 form {
@@ -228,7 +235,7 @@ form select:focus {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Pour qu'ils passent Ãƒ  la ligne si l'ÃƒÂ©cran est petit */
 }
 
 .navIndex li {
@@ -336,7 +343,7 @@ form select:focus {
 
 /* Style pour le mode nuit (soleil visible car on va passer en mode jour) */
 .toggle-button.alternatif {
-    background-color: #2c3e50; 
+    background-color: #2c3e50; /* Fond bleu foncÃƒÂ© */
     background: #2c3e50; /* Fallback pour vieux navigateurs */
     color: #f0e9b4;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
@@ -355,13 +362,14 @@ form select:focus {
     margin-bottom: 40px; /* Espace entre le titre et l'histogramme */
 }
 
+/* Ajoutez un espace aprÃƒÂ¨s l'histogramme ÃƒÂ©galement */
 .construction img + * {
-    margin-top: 30px; 
+    margin-top: 30px; /* Espace aprÃƒÂ¨s l'histogramme */
 }
 
 /* Fallback pour navigateurs ne supportant pas flex */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-
+    /* Styles pour IE10+ */
     .mode-toggle {
         display: inline-block;
     }
@@ -471,64 +479,7 @@ form select:focus {
         width: 90%;
         padding: 15px;
     }
-
-    /* Plan du site */
-    .plan-du-site {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #f5f5f5;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
     
-    .plan-du-site h1 {
-        color: #2c3e50;
-        text-align: center;
-        margin-bottom: 30px;
-        font-size: 2.5rem;
-    }
-    
-    .plan-du-site h2 {
-        color: #3498db;
-        border-bottom: 2px solid #3498db;
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-        font-size: 1.8rem;
-    }
-    
-    .plan-du-site ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    .plan-du-site li {
-        margin-bottom: 15px;
-        padding: 10px 15px;
-        background-color: white;
-        border-left: 4px solid #3498db;
-        border-radius: 4px;
-        transition: all 0.3s ease;
-    }
-    
-    .plan-du-site li:hover {
-        transform: translateX(5px);
-        border-left-color: #2980b9;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    }
-    
-    .plan-du-site a {
-        color: #34495e;
-        text-decoration: none;
-        display: block;
-        font-size: 1.1rem;
-        font-weight: 500;
-        transition: color 0.3s ease;
-    }
-    
-    .plan-du-site a:hover {
-        color: #3498db;
-    }
     
     /* Ajustement gÃƒÂ©nÃƒÂ©ral du body */
     body {
@@ -560,9 +511,7 @@ form select:focus {
         padding: 0 10px;
     }
 }
-
- /* Plan du site */
- .plan-du-site {
+.plan-du-site {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -579,7 +528,7 @@ form select:focus {
 }
 
 .plan-du-site h2 {
-    color: #3498db;
+    color: #0566a7;
     border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -618,7 +567,6 @@ form select:focus {
 .plan-du-site a:hover {
     color: #3498db;
 }
-
 .scroll-top-btn {
     position: fixed;
     bottom: 20px;
@@ -650,7 +598,7 @@ form select:focus {
     transform: rotate(-135deg);
     margin-top: 5px;
 }
-
+/* Styles pour la section des activitÃ©s recommandÃ©es */
 #activites {
     padding: 0.5rem;
     background-color: #f8f9fa;
@@ -714,7 +662,7 @@ form select:focus {
     margin-top: 0.3rem;
 }
 
-/* Icônes pour les activités */
+/* IcÃƒÂ´nes pour les activitÃƒÂ©s */
 .activity-card::before {
     display: block;
     font-size: 1.5rem;
@@ -769,7 +717,6 @@ form select:focus {
     content: "☀️";
     margin-right: 10px;
 }
-
 .contact ul li::before {
     content: "📩";
     margin-right: 10px;
@@ -782,9 +729,88 @@ form select:focus {
     color: #444;
 }
 
+#cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 320px;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #222;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+   
+}
+
+#cookie-banner .cookie-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    color: #222;
+    font-weight: 600;
+    font-size: 16px;
+}
 
 
-    @media screen and (max-width: 480px) {
+
+#cookie-banner p {
+    margin: 0 0 15px 0;
+    text-align: left;
+    color: #222;
+    line-height: 1.4;
+}
+
+.cookie-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cookie-buttons button {
+    flex: 1;
+    background-color: #4CAF50;
+    color: rgb(8, 7, 7);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.cookie-buttons button[name="decline_cookies"] {
+    background-color: #f44336;
+}
+
+.cookie-buttons button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cookie-buttons button:active {
+    transform: translateY(0);
+}
+
+/* Pour une apparence plus moderne sur mobile */
+@media (max-width: 480px) {
+    #cookie-banner {
+        bottom: 0;
+        right: 0;
+        left: 0;
+        max-width: 100%;
+        border-radius: 12px 12px 0 0;
+    }
+}
+
+
+    /* Ajustement des espaces pour les ÃƒÂ©crans trÃƒÂ¨s petits */
+    @media screen and (max-width: 786px) {
         h1 {
             font-size: 1.6em;
         }

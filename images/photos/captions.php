@@ -1,4 +1,18 @@
 <?php
+/**
+ * @file captions.php
+ *
+ * @author Ouardia/Lisa
+ * @brief  Ce fichier retourne un tableau associatif liant des noms de fichiers d'images à leurs descriptions textuelles.
+ * Il est utilisé pour générer dynamiquement les légendes des images météo à l'aide d'éléments <figcaption>,
+ * améliorant ainsi l'accessibilité et la compréhension visuelle sur le site.
+ * Chaque clé correspond à un nom de fichier image (au format WebP) et chaque valeur est une description lisible par l'utilisateur.
+ *
+ * PHP version 8.1+
+ * 
+ *
+ * @return array Tableau associatif des noms de fichiers image vers leurs descriptions.
+ */
 return [
     "img1.webp" => "Homme en manteau jaune profitant de la pluie",
     "img2.webp" => "Une foudre frappe dans un orage",
