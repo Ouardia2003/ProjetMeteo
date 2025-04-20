@@ -122,4 +122,4 @@ Toute contribution est la bienvenue !
 Vous pouvez proposer des améliorations, corriger des bugs ou ajouter de nouvelles fonctionnalités en créant une **issue** ou une **pull request** sur le dépôt **GitHub**.
 
 🙏 Merci pour votre intérêt et votre aide !
->>>>>>> 5d78ec76c76c743c0d5612527349c333bf557e0a
+
